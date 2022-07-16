@@ -2,6 +2,7 @@ package net.iamaprogrammer.heartcanister.item;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.iamaprogrammer.heartcanister.HeartCanisters;
+import net.iamaprogrammer.heartcanister.item.custom.RedHeartCanisterItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Identifier;
@@ -10,7 +11,7 @@ import net.minecraft.util.registry.Registry;
 public class ModItems {
 
     public static final Item RED_CANISTER = registerItem("red_heart_canister",
-            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+            new RedHeartCanisterItem(new FabricItemSettings().group(ItemGroup.MISC)));
 
     public static final Item BLUE_CANISTER = registerItem("blue_heart_canister",
             new Item(new FabricItemSettings().group(ItemGroup.MISC)));
