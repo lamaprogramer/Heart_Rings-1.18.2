@@ -1,5 +1,8 @@
 {
-  "item.heartcanister.red_heart_canister": "Red Heart Canister",
-  "item.heartcanister.blue_heart_canister": "Blue Heart Canister",
-  "item.heartcanister.green_heart_canister": "Green Heart Canister"
+  "item.heartcanister.red_heart_ring": "Red Ring Of Life",
+  "item.heartcanister.blue_heart_ring": "Blue Ring Of Life",
+  "item.heartcanister.green_heart_ring": "Green Ring Of Life",
+  "item.heartcanister.yellow_heart_ring": "Yellow Ring Of Life",
+  "item.heartcanister.purple_heart_ring": "Purple Ring Of Life",
+  "item.heartcanister.red_heart_shard": "Life Shard"
 }
