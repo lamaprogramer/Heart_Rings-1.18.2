@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " I ",
+    "IRI",
+    " S "
+  ],
+  "key": {
+    "S": {
+      "item": "heartcanister:red_heart_shard"
+    },
+    "I": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "R": {
+      "item": "heartcanister:yellow_heart_ring"
+    }
+  },
+  "result": {
+    "item": "heartcanister:purple_heart_ring",
+    "count": 1
+  }
+}
