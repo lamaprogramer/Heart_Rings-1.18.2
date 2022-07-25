@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "heartrings:item/blue_heart_ring"
+  }
+}

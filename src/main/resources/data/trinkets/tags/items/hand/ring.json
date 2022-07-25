@@ -1,10 +1,10 @@
 {
   "replace": false,
   "values": [
-    "heartcanister:red_heart_ring",
-    "heartcanister:blue_heart_ring",
-    "heartcanister:green_heart_ring",
-    "heartcanister:yellow_heart_ring",
-    "heartcanister:purple_heart_ring"
+    "heartrings:red_heart_ring",
+    "heartrings:blue_heart_ring",
+    "heartrings:green_heart_ring",
+    "heartrings:yellow_heart_ring",
+    "heartrings:purple_heart_ring"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "id": "heartcanister",
+  "id": "heartrings",
   "version": "${version}",
 
   "name": "Simple Heart Canisters",
-  "description": "A mod that adds some simple heart canisters which drop from mobs.",
+  "description": "A mod that adds some simple heart rings which drop from mobs.",
   "authors": [
     "Iamaprogrammer"
   ],
@@ -19,15 +19,15 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.iamaprogrammer.heartcanister.HeartCanisters"
+      "net.iamaprogrammer.heartrings.HeartRings"
     ]
   },
   "mixins": [
-    "heartcanister.mixins.json"
+    "heartrings.mixins.json"
   ],
 
   "depends": {
-    "fabricloader": ">=0.14.6",
+    "fabricloader": ">=0.14.8",
     "fabric": "*",
     "minecraft": "~1.18.2",
     "java": ">=17"

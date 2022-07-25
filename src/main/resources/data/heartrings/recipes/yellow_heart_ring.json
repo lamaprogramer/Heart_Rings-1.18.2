@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " I ",
+    "IRI",
+    " S "
+  ],
+  "key": {
+    "S": {
+      "item": "heartrings:red_heart_shard"
+    },
+    "I": {
+      "item": "minecraft:diamond"
+    },
+    "R": {
+      "item": "heartrings:green_heart_ring"
+    }
+  },
+  "result": {
+    "item": "heartrings:yellow_heart_ring",
+    "count": 1
+  }
+}
