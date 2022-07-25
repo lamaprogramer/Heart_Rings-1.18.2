@@ -98,8 +98,9 @@ public class LifeRingItem extends TrinketItem implements Trinket{
         // check for living entities and apply the regeneration status effect.
         for (Entity i : entityBox) {
             LivingEntity living = i instanceof LivingEntity ? ((LivingEntity) i) : null;
-            assert living != null;
-            living.setStatusEffect(new StatusEffectInstance(StatusEffects.REGENERATION, ToTick(10), effectStrength, true, true, true), living);
+            if (living != null) {
+                living.setStatusEffect(new StatusEffectInstance(StatusEffects.REGENERATION, ToTick(10), effectStrength, true, true, true), living);
+            }
         }
 
         // Damage Tool
